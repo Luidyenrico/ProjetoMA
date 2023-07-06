@@ -193,3 +193,12 @@ section {
 #acessorios {
   background-color: white;
 }
+
+#facapedido {
+  font-weight: 700;
+  margin: 20px;
+}
+img {
+  width: auto;
+  height: 300px;
+}
