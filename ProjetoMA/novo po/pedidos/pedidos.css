@@ -40,17 +40,6 @@
 
 }
 
-#descricao {
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.capsulas:hover > #descricao {
-  display: block;
-  opacity: 1;
-  transition: 0.5s;
-  
-}
 
 .redirecionamento {
   margin-top: 10px;
@@ -187,6 +176,7 @@ h1{
   font-size: 1.7em;
   
   text-shadow: 1px 1px 2px black;
+  
 }
 
 h2 {
@@ -218,6 +208,9 @@ textarea {
     margin: auto;
     height: 300px;
     width: 800px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding-left: 5px;
 }
 
 #textareaa {
@@ -225,5 +218,33 @@ textarea {
     padding: 40px;
     height: 400px;
     width: 800px;
+
+}
+
+#botao-enviar {
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-weight: 800;
+  background-color: azure;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+#div-botao-enviar {
+  margin: auto;
+}
+
+#digite-mensagem {
+  text-align: center;
+  margin: 0px;
+  display: block;
+  font-size: 1.2em;
+  padding: 5px 0px 5px 0px;
+  background-color: #23232e;
+  color: white;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
