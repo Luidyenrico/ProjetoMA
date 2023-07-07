@@ -76,11 +76,11 @@ nav {
 }
 
 body {
-  background-color: #434347;
+  background-color: #ffffff;
 }
 
 main {
-  background-color: #434347;
+  background-color: #727272;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
 }
 
@@ -194,17 +194,10 @@ h2 {
   
 }
 
-.imagemP1{
-  width: 500px;
+p {
+  text-align: left;
 
-  position: inherit;
-}
-
-
-p{
-  text-align: center;
-
-  font-size: 1.3em;
+  font-size: 0.7em;
 }
 
 
@@ -212,62 +205,25 @@ p{
   font-weight: bold;
   padding: 50px;
   text-align: center;
-  width: 700px;
   margin: auto;
   font-size: 2em;
 }
 
-section {
-  margin-bottom: 100px;
-  box-shadow: 3px 3px 3px black;
-}
-
-#vitaminas {
-  background-color: rgb(255, 255, 255);
-}
-
-#acessorios {
-  background-color: white;
-}
-
-#facapedido {
-  font-weight: 700;
-  margin: 20px;
-}
-img {
-  width: auto;
-  height: 300px;
+.passos {
+    color: black;
 }
 
 
-.support-icon {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
+textarea {
+    margin: auto;
+    height: 300px;
+    width: 800px;
 }
 
-.support-icon img {
-  width: 100px; 
-  height: 100px;
-} 
-
-#contatenos {
-  display: none;
-  color: black;
-  font-weight: 900;
-  position: fixed;
-  bottom: 130px;
-  right: 23px;
-  z-index: 9999;
-  padding: 7px;
-  border-radius: 20px;
-  background-color: #00556C;
-  opacity: 0.7;
-}
-
-a:hover > #contatenos {
-
-  display: block;
+#textareaa {
+    margin: auto;
+    padding: 40px;
+    height: 400px;
+    width: 800px;
 
 }
